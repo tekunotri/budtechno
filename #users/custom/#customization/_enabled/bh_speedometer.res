@@ -4,7 +4,7 @@
     {
         "controlName"                                               "ImagePanel"
         "fieldName"                                                 "bh_Speedometer"
-        "xpos"                                                      "c-220"
+        "xpos"                                                      "c-207"
         "ypos"                                                      "c135"
         "zpos"                                                      "2"
         "wide"                                                      "64"

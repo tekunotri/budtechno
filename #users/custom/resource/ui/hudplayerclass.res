@@ -90,7 +90,7 @@
             "angles_z"                                              "0"
 
             "origin_x"                                              "200"       // Move towards and away relative to user
-            "origin_y"                                              "000"       // Move left/right relative to user (center: 0)
+            "origin_y"                                              "025"       // Move left/right relative to user (center: 0)
             "origin_z"                                              "-50"       // Move up/down relative to user (center: 40ish)
         }
     }
