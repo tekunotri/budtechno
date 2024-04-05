@@ -20,7 +20,7 @@
                                                             echo *~*~*~*~*~*~*~ ad astra per alas porci *~*~*~*~*~*~*~*;
                                                             echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
                                                             echo ======================================================;
-                                                            echo edit by techno.;"
+                                                            echo personal budhud edit;"
         "tooltip"                                                   "upd. 05/04/24"
     }
 

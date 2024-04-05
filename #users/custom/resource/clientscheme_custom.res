@@ -1,6 +1,7 @@
-Scheme
+Scheme // only used for killstreak.
 {
-    Fonts{
+    Fonts
+    {
             "Icons16"
 		{
 			"1"
@@ -11,7 +12,6 @@ Scheme
 			}
 		}
     }
-
     CustomFontFiles
     {
         "14" // Icons
