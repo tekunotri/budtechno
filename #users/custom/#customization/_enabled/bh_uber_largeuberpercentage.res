@@ -2,12 +2,12 @@
 {
     "IndividualChargesLabel"
     {
-        "font"                                                      "bh_Font60DropShadow"
+        "font"                                                      "bh_Font50DropShadow"
     }
 
     "ChargeLabel"
     {
-        "font"                                                      "bh_Font60DropShadow"
+        "font"                                                      "bh_Font50DropShadow"
     }
 
     "ChargeMeter"
