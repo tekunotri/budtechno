@@ -10,7 +10,7 @@ Scheme
     ////////////////////////////////////////////////////////////////////////////////////////////////////
         "bh_Health_Main"                                            "255 255 255 255"
         "bh_Health_Shadow"                                          "000 000 000 255"
-        "bh_Health_Low"                                             "207 122 52 255"
+        "bh_Health_Low"                                             "245 70 70 255"
         "bh_Health_Buff"                                            "0 255 128 255"
         "bh_Health_Pickup"                                          "0 255 255 255"
 
@@ -19,7 +19,7 @@ Scheme
     ////////////////////////////////////////////////////////////////////////////////////////////////////
         "bh_Ammo_Main"                                              "255 255 255 255"
         "bh_Ammo_Reserve"                                           "255 255 255 255"
-        "bh_Ammo_Low"                                               "207 122 52 255"
+        "bh_Ammo_Low"                                               "245 70 70 255"
         "bh_Ammo_Main_Shadow"                                       "000 000 000 255"
         "bh_Ammo_Reserve_Shadow"                                    "000 000 000 255"
 
@@ -34,7 +34,7 @@ Scheme
     // TargetIDs
     ////////////////////////////////////////////////////////////////////////////////////////////////////
         "bh_TargetID_Base"                                          "150 150 150 255"
-        "bh_TargetID_Low"                                           "207 122 52 255"
+        "bh_TargetID_Low"                                           "245 70 70 255"
         "bh_TargetID_Buff"                                          "000 255 128 255"
         "bh_TargetID_NameBG"                                        "000 000 000 125"   // Color of background behind player's name
 

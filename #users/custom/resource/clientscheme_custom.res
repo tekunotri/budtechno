@@ -2,7 +2,7 @@ Scheme // only used for killstreak.
 {
     Fonts
     {
-            "Icons16"
+        "Icons16"
 		{
 			"1"
 			{
