@@ -3,6 +3,6 @@
     "DamageAccountValue"
     {
         "xpos"                                                      "c120"
-        "ypos"                                                      "c65"
+        "ypos"                                                      "c55"
     }
 }
