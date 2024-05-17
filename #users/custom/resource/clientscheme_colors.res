@@ -46,5 +46,33 @@ Scheme
         "bh_chargemeter"                                            "255 255 255 255"   // Uber chargemeter fill color
         "bh_chargemeterBG"                                          "150 150 150 255"   // Uber chargemeter background
 
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Custom Quality Colors
+    ////////////////////////////////////////////////////////////////////////////////////////////////////		
+		"QualityColorNormal"	            	"194 194 194 255"
+		"QualityColorrarity1"			        "60 163 115 255"
+		"QualityColorrarity2"           		"141 131 75 255"
+		"QualityColorrarity3"	              	"204 204 250 255"
+		"QualityColorrarity4"             		"112 57 203 255"
+		"QualityColorVintage"	                "53 105 155 255"
+		"QualityColorUnique"	               	"239 174 40 255"
+		"QualityColorCommunity"		            "112 176 74 255"
+		"QualityColorDeveloper"			        "165 15 121 255"
+		"QualityColorSelfMade"		            "112 176 74 255"
+		"QualityColorCustomized"		        "71 98 145 255"
+		"QualityColorStrange"		            "251 118 35 255"
+		"QualityColorCompleted"	               	"134 80 172 255"
+		"QualityColorHaunted"	              	"42 202 156 255"
+		"QualityColorCollectors"	            "187 63 60 255"
+		"QualityColorPaintkitWeapon"		    "250 250 250 255"
+		
+		"ItemRarityDefault"			            "131 126 119 255"
+		"ItemRarityCommon"			         	"176 195 217 255"
+		"ItemRarityUncommon"		          	"94 152 217 255"
+		"ItemRarityRare"			          	"75 105 255 255"
+		"ItemRarityMythical"		          	"136 71 255 255"
+		"ItemRarityLegendary"		           	"211 44 230 255"
+		"ItemRarityAncient"			         	"235 75 75 255"
+	
     }
 }
