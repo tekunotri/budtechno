@@ -1,4 +1,4 @@
-    #base    "../../#users/custom/resource/ui/spectatortournament.res"
+    #base    "../../#users/techno/resource/ui/spectatortournament.res"
     #base    "../../#customization/_enabled/bh_tournamentpanels_castingessentials.res"
     #base    "../../#customization/_enabled/bh_tournamentpanels_allright.res"
     #base    "../../#customization/_enabled/bh_tournamentpanels_allleft.res"

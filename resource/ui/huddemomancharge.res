@@ -1,4 +1,4 @@
-    #base    "../../#users/custom/resource/ui/huddemomancharge.res"
+    #base    "../../#users/techno/resource/ui/huddemomancharge.res"
     #base    "../../#users/ly_dee/resource/ui/huddemomancharge.res"
     #base    "../../#users/jayhyunpae/resource/ui/huddemomancharge.res"
     #base    "../../_stream/resource/ui/huddemomancharge.res"

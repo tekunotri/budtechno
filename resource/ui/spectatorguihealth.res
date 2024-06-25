@@ -1,4 +1,4 @@
-    #base    "../../#users/custom/resource/ui/spectatorguihealth.res"
+    #base    "../../#users/techno/resource/ui/spectatorguihealth.res"
     #base    "../../#customization/_enabled/bh_targetid_largehealth.res"
     #base    "../../#customization/_enabled/bh_targetid_depleting.res"
     #base    "../../#customization/_enabled/bh_targetid_healthcross/spectatorguihealth.res"

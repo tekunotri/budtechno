@@ -1,4 +1,4 @@
-    #base    "../../#users/custom/resource/ui/huditemeffectmeter_engineer.res"
+    #base    "../../#users/techno/resource/ui/huditemeffectmeter_engineer.res"
     #base    "../../#users/dane/resource/ui/huditemeffectmeter_engineer.res"
     #base    "../../#users/ly_dee/resource/ui/huditemeffectmeter_engineer.res"
     #base    "../../#users/jayhyunpae/resource/ui/huditemeffectmeter_engineer.res"

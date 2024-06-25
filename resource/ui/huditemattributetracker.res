@@ -1,4 +1,4 @@
-    #base    "../../#users/custom/resource/ui/huditemattributetracker.res"
+    #base    "../../#users/techno/resource/ui/huditemattributetracker.res"
     #base    "../../#users/dane/resource/ui/huditemattributetracker.res"
     #base    "../../#customization/_enabled/bh_game_hidecontracker.res"
     #base    "../../_stream/resource/ui/huditemattributetracker.res"

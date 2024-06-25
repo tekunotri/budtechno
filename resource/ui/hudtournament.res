@@ -1,4 +1,4 @@
-    #base    "../../#users/custom/resource/ui/hudtournament.res"
+    #base    "../../#users/techno/resource/ui/hudtournament.res"
     #base    "../../#users/dane/resource/ui/hudtournament.res"
     #base    "../../#users/zenith/resource/ui/hudtournament.res"
     #base    "../../_stream/resource/ui/hudtournament.res"

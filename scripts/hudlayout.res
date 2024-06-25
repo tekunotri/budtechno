@@ -6,7 +6,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // User Customization
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    #base   "../#users/custom/scripts/hudlayout.res"
+    #base   "../#users/techno/scripts/hudlayout.res"
     #base   "../#users/dane/scripts/hudlayout.res"
     #base   "../#users/ly_dee/scripts/hudlayout.res"
     #base   "../#users/jayhyunpae/scripts/hudlayout.res"
@@ -23,7 +23,7 @@
     // Core HUD
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    #base   "../#users/custom/scripts/hudlayout.res"
+    #base   "../#users/techno/scripts/hudlayout.res"
     #base   "../_budhud/scripts/hudlayout.res"
     #base   "../_tf2hud/scripts/hudlayout.res"
 

@@ -1,4 +1,4 @@
-    #base    "../../#users/custom/resource/ui/statsummary.res"
+    #base    "../../#users/techno/resource/ui/statsummary.res"
     #base    "../../#users/ly_dee/#customization/_enabled/bh_stats_customimage.res"
     #base    "../../#users/jayhyunpae/#customization/_enabled/bh_stats_customimage.res"
     #base    "../../#users/powah/#customization/_enabled/bh_stats_customimage.res"
