@@ -55,6 +55,11 @@
         {
             "visible"                                               "0"
         }
+
+        "if_no_flags"
+        {
+            "visible"                                               "0"
+        }
     }
 
     "bh_RedBG"
@@ -90,6 +95,11 @@
         {
             "visible"                                               "0"
         }
+
+        "if_no_flags"
+        {
+            "visible"                                               "0"
+        }
     }
 
     "OutlineBG"
@@ -117,8 +127,6 @@
     "BlueScore"
     {
         "pin_to_sibling"                                            "bh_BlueBG"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
         "ypos"                                                      "0"
@@ -147,6 +155,11 @@
         }
 
         "if_specialdelivery"
+        {
+            "visible"                                               "0"
+        }
+
+        "if_no_flags"
         {
             "visible"                                               "0"
         }
@@ -179,13 +192,16 @@
             "visible"                                               "0"
             "enabled"                                               "0"
         }
+
+        "if_no_flags"
+        {
+            "visible"                                               "0"
+        }
     }
 
     "RedScore"
     {
         "pin_to_sibling"                                            "bh_RedBG"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
         "ypos"                                                      "0"
@@ -217,6 +233,11 @@
         {
             "visible"                                               "0"
         }
+
+        "if_no_flags"
+        {
+            "visible"                                               "0"
+        }
     }
 
     "RedScoreShadow"
@@ -235,6 +256,11 @@
         }
 
         "if_specialdelivery"
+        {
+            "visible"                                               "0"
+        }
+
+        "if_no_flags"
         {
             "visible"                                               "0"
         }
@@ -289,6 +315,10 @@
             "visible"                                               "0"
         }
 
+        "if_no_flags"
+        {
+            "visible"                                               "0"
+        }
     }
 
     "PlayingToBG"
@@ -324,6 +354,11 @@
             "visible"                                               "0"
             "enabled"                                               "0"
         }
+
+        "if_no_flags"
+        {
+            "visible"                                               "0"
+        }
     }
 
     "BlueFlag"
@@ -345,7 +380,7 @@
         "if_hybrid_single"
         {
             "xpos"                                                  "c-81"
-            "ypos"                                                  "r72"
+            "ypos"                                                  "r100"
         }
 
         "if_hybrid_double"
@@ -421,6 +456,11 @@
         "if_hybrid"
         {
             "ypos"                                                  "r100"
+        }
+
+        "if_hybrid_single"
+        {
+            "ypos"                                                  "r79"
         }
 
         "if_specialdelivery"

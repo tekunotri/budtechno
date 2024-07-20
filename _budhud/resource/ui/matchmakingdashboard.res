@@ -3,11 +3,10 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Excluding this breaks things
     ////////////////////////////////////////////////////////////////////////////////////////////////////
+
     "MMDashboard"
     {
     }
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     "TopBar"
     {
@@ -146,6 +145,36 @@
             "enabled"                                               "0"
         }
 
+        "JoinPartyLobbyContainer"	// join party member's mm game
+        {
+            "OuterShadow"
+            {
+                "ypos"                                              "r-6969"
+                "visible"                                           "0"
+                "enabled"                                           "0"
+            }
+
+            "BGPanel"
+            {
+                "bgcolor_override"                                  "bh_Theme_BG20"
+                "border"                                            "bh_blank"
+                "wide"                                              "f0"
+                "tall"                                              "f0"
+            }
+
+            "JoinNowButton"
+            {
+                "defaultFgColor_override"                           "bh_Theme_TextSecondary"
+                "armedFgColor_override"                             "bh_Theme_TextAccent"
+                "depressedFgColor_override"                         "bh_ButtonDepressed"
+                "defaultBgColor_override"                           "bh_Theme_BG20"
+                "armedBgColor_override"                             "bh_Theme_BG30"
+                "depressedBgColor_override"                         "bh_Theme_BG30"
+                "border_default"                                    "bh_b_NESW"
+                "border_armed"                                      "bh_b_NESW"
+            }
+        }
+
         "QueueContainer"
         {
             "BGPanel"
@@ -208,6 +237,7 @@
                 "wide"                                              "f0"
                 "tall"                                              "f0"
                 "paintbackground"                                   "0"
+
                 "SubImage"
                 {
                     "ypos"                                          "r-6969"
@@ -241,13 +271,11 @@
             "visible"                                               "1"
             "enabled"                                               "1"
             "bgcolor_override"                                      "0 0 0 0"
-
         }
+
         "PartySlot0"
         {
             "pin_to_sibling"                                        "bh_PartyPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "72"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -256,8 +284,6 @@
         "PartySlot1"
         {
             "pin_to_sibling"                                        "bh_PartyPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "48"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -266,8 +292,6 @@
         "PartySlot2"
         {
             "pin_to_sibling"                                        "bh_PartyPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "24"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -276,8 +300,6 @@
         "PartySlot3"
         {
             "pin_to_sibling"                                        "bh_PartyPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "0"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -286,8 +308,6 @@
         "PartySlot4"
         {
             "pin_to_sibling"                                        "bh_PartyPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "-24"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -296,8 +316,6 @@
         "PartySlot5"
         {
             "pin_to_sibling"                                        "bh_PartyPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "-48"
             "wide"                                                  "24"
             "tall"                                                  "24"

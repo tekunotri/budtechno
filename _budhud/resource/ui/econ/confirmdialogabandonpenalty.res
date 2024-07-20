@@ -1,17 +1,13 @@
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Disconnect Confirmation (Penalty)
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Disconnect Confirmation (Penalty)
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#base   "confirmdialog.res"
 
-    #base   "bh_confirmbase.res"
-
-"Resource/UI/ConfirmDialogAbandonPenalty.res"
+"Resource/UI/ConfirmDialogAbandonNoPenalty.res"
 {
     "ConfirmDialog"
     {
-        "ExplanationLabel"
-        {
-            "xpos"                                                  "5"
-            "textalignment"                                         "west"
-        }
+        "paintborder"                                               "0"
+        "bgcolor_override"                                          "bh_blank"
     }
 }

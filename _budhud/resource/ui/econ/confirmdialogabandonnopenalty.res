@@ -1,17 +1,14 @@
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Disconnect Confirmation (No Penalty)
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    #base   "bh_confirmbase.res"
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Disconnect Confirmation (No Penalty) - Casual. Has different explanations, which causes
+// different line resizing :(
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#base   "confirmdialog.res"
 
 "Resource/UI/ConfirmDialogAbandonNoPenalty.res"
 {
     "ConfirmDialog"
     {
-        "ExplanationLabel"
-        {
-            "xpos"                                                  "5"
-            "textalignment"                                         "west"
-        }
+        "paintborder"                                               "0"
+        "bgcolor_override"                                          "bh_blank"
     }
 }
