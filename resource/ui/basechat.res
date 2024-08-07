@@ -1,6 +1,6 @@
     #base    "../../#users/techno/resource/ui/basechat.res"
-    #base    "../../#users/custom/#customization/_enabled/bh_chat_lowerleft.res"
-    #base    "../../#users/custom/#customization/_enabled/bh_chat_upperleft.res"
+    #base    "../../#users/techno/#customization/_enabled/bh_chat_lowerleft.res"
+    #base    "../../#users/techno/#customization/_enabled/bh_chat_upperleft.res"
     #base    "../../#users/jayhyunpae/#customization/_enabled/bh_chat_lowerleft.res"
     #base    "../../#users/zenith/#customization/_enabled/bh_chat_lowerleft.res"
     #base    "../../#customization/_enabled/bh_chat_lowerleft.res"

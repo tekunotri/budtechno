@@ -1,10 +1,10 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // #users/custom
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    #base   "../#users/custom/scripts/hudlayout.res"
-    #base   "../#users/custom/#customization/_enabled/bh_dev_grid.res"
-    #base   "../#users/custom/#customization/_enabled/bh_player_transparentviewmodels.res"
-    #base   "../#users/custom/#customization/_enabled/bh_player_hidedamageindicator.res"
+    #base   "../#users/techno/scripts/hudlayout.res"
+    #base   "../#users/techno/#customization/_enabled/bh_dev_grid.res"
+    #base   "../#users/techno/#customization/_enabled/bh_player_transparentviewmodels.res"
+    #base   "../#users/techno/#customization/_enabled/bh_player_hidedamageindicator.res"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // HudDev
