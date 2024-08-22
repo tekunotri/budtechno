@@ -2,6 +2,7 @@
     #base    "../../#users/techno/resource/ui/targetid.res"
     #base    "../../#users/techno/#customization/_enabled/bh_targetid_healthcross/targetid.res"
     #base    "../../#users/jayhyunpae/resource/ui/targetid.res"
+    #base    "../../#customization/_enabled/bh_targetid_showavatars.res"
     #base    "../../#customization/_enabled/bh_targetid_healthcross/targetid.res"
     #base    "../../_stream/resource/ui/targetid.res"
     #base    "../../_budhud/resource/ui/targetid.res"
