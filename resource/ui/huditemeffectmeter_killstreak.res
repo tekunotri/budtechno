@@ -1,4 +1,4 @@
-    #base    "../../#users/techno/resource/ui/huditemeffectmeter_killstreak.res"
+    #base    "../../#users/custom/resource/ui/huditemeffectmeter_killstreak.res"
     #base    "../../#users/ly_dee/resource/ui/huditemeffectmeter_killstreak.res"
     #base    "../../#users/jayhyunpae/resource/ui/huditemeffectmeter_killstreak.res"
     #base    "../../#users/zenith/resource/ui/huditemeffectmeter_killstreak.res"

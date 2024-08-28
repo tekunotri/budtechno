@@ -1,10 +1,10 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // #users/custom
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    #base   "../#users/techno/scripts/hudlayout.res"
-    #base   "../#users/techno/#customization/_enabled/bh_dev_grid.res"
-    #base   "../#users/techno/#customization/_enabled/bh_player_transparentviewmodels.res"
-    #base   "../#users/techno/#customization/_enabled/bh_player_hidedamageindicator.res"
+    #base   "../#users/custom/scripts/hudlayout.res"
+    #base   "../#users/custom/#customization/_enabled/bh_dev_grid.res"
+    #base   "../#users/custom/#customization/_enabled/bh_player_transparentviewmodels.res"
+    #base   "../#users/custom/#customization/_enabled/bh_player_hidedamageindicator.res"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // HudDev
@@ -14,7 +14,6 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // User Customization
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    #base   "../#users/techno/scripts/hudlayout.res"
     #base   "../#users/dane/scripts/hudlayout.res"
     #base   "../#users/ly_dee/scripts/hudlayout.res"
     #base   "../#users/jayhyunpae/scripts/hudlayout.res"
@@ -31,8 +30,6 @@
     // Core HUD
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    #base   "../#users/techno/scripts/hudlayout.res"
-    #base   "../#users/#custom/scripts/hudlayout.res"
     #base   "../_budhud/scripts/hudlayout.res"
     #base   "../_tf2hud/scripts/hudlayout.res"
 

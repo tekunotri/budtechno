@@ -11,19 +11,18 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // #users/techno
+    // #users/custom
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    #base   "../#users/techno/resource/clientscheme_custom.res"
-    #base   "../#users/techno/#customization/_enabled/bh_crosshairs_tf2crosshairs.res"
-    #base   "../#users/techno/#customization/_enabled/bh_crosshairs_fog.res"
-    #base   "../#users/techno/#customization/_enabled/bh_crosshairs_knuckles.res"
-    #base   "../#users/techno/#customization/_enabled/bh_crosshairs_whayay.res"
+    #base   "../#users/custom/resource/clientscheme_custom.res"
+    #base   "../#users/custom/#customization/_enabled/bh_crosshairs_tf2crosshairs.res"
+    #base   "../#users/custom/#customization/_enabled/bh_crosshairs_fog.res"
+    #base   "../#users/custom/#customization/_enabled/bh_crosshairs_knuckles.res"
+    #base   "../#users/custom/#customization/_enabled/bh_crosshairs_whayay.res"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // #users Customization
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     #base   "../#users/dane/resource/clientscheme_colors.res"
-    #base   "../#users/techno/resource/clientscheme_colors.res"
     #base   "../#users/ly_dee/resource/clientscheme_colors.res"
     #base   "../#users/truktruk/resource/clientscheme_colors.res"
     #base   "../#users/jayhyunpae/#customization/_enabled/bh_crosshairs_tf2crosshairs.res"
@@ -43,6 +42,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // #base   "../_budhud/resource/clientscheme_tf2build.res"
     #base   "../_budhud/resource/clientscheme_lato.res"
+
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // budhud - Core
     ////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -205,6 +205,5 @@ Scheme
             "font"          "resource/fonts/crosshairs-fog.ttf"
             "name"          "Crosshairs Regular"
         }
-
     }
 }

@@ -1,4 +1,4 @@
-    #base    "../../#users/techno/resource/ui/huditemeffectmeter_raygun.res"
+    #base    "../../#users/custom/resource/ui/huditemeffectmeter_raygun.res"
     #base    "../../#users/ly_dee/resource/ui/huditemeffectmeter_raygun.res"
     #base    "../../#users/jayhyunpae/resource/ui/huditemeffectmeter_raygun.res"
     #base    "../../_stream/resource/ui/huditemeffectmeter_raygun.res"

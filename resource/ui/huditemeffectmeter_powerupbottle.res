@@ -1,4 +1,4 @@
-    #base    "../../#users/techno/resource/ui/huditemeffectmeter_powerupbottle.res"
+    #base    "../../#users/custom/resource/ui/huditemeffectmeter_powerupbottle.res"
     #base    "../../#users/ly_dee/resource/ui/huditemeffectmeter_powerupbottle.res"
     #base    "../../#users/jayhyunpae/resource/ui/huditemeffectmeter_powerupbottle.res"
     #base    "../../_stream/resource/ui/huditemeffectmeter_powerupbottle.res"
