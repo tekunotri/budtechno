@@ -399,5 +399,10 @@
                 "range"                                             "0x0020 0x1EFF"
             }
         }
+        "58"
+        {
+            "font"                                                  "resource/fonts/font-din-medium.otf"
+            "name"                                                  "DIN-Medium"
+        }
     }
 }
