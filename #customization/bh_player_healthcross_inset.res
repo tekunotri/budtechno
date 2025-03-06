@@ -1,8 +1,12 @@
 "Resource/UI/HudPlayerHealth.res"
 {
+    "HudPlayerHealth"	// needed due to s value below
+    {
+    }
+
     "bh_PlayerStatusPin"
     {
-        "xpos"                                                      "s0.864"
+        "xpos"                                                      "s.86"
         "ypos"                                                      "10"
     }
 
@@ -18,8 +22,8 @@
 
     "PlayerStatusHealthImage"
     {
-        "xpos"                                                      "cs-0.5"
-        "ypos"                                                      "cs-0.5"
+        "xpos"                                                      "95"
+        "ypos"                                                      "45"
         "wide"                                                      "60"
         "tall"                                                      "o1"
         "visible"                                                   "1"
@@ -29,10 +33,10 @@
 
     "PlayerStatusHealthImageBG"
     {
-        "xpos"                                                      "cs-0.5"
-        "ypos"                                                      "cs-0.5"
-        "wide"                                                      "67"
-        "tall"                                                      "o1"
+        "xpos"                                                      "92"
+        "ypos"                                                      "43"
+        "wide"                                                      "66"
+        "tall"                                                      "66"
         "visible"                                                   "1"
         "enabled"                                                   "1"
         "proportionaltoparent"                                      "1"
@@ -40,9 +44,9 @@
 
     "PlayerStatusHealthBonusImage"
     {
-        "xpos"                                                      "cs-0.5"
-        "ypos"                                                      "cs-0.5"
-        "wide"                                                      "67"
-        "tall"                                                      "o1"
+        "xpos"                                                      "92"
+        "ypos"                                                      "43"
+        "wide"                                                      "66"
+        "tall"                                                      "66"
     }
 }

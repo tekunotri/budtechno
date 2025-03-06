@@ -8,8 +8,8 @@
 
         "model_center_y"                                            "1"
         "model_center_x"                                            "1"
-        "model_wide"                                                "80"
-        "model_tall"                                                "50"
+        "model_wide"                                                "90"
+        "model_tall"                                                "60"
         "noitem_use_fullpanel"                                      "0"
         "resize_to_text"                                            "1"
 
