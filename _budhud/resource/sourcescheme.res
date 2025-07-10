@@ -62,9 +62,9 @@
         "TFTanLightBright"                                          "255 192 203 090"	// Unknown
         "TFTanLightDark"                                            "255 255 255 050"	// Inner outline color
         "TFOrangeBright"                                            "100 100 100 150"	// Context menu highlight
-        "TFTextBright"                                              "255 255 255 150"	// Main text color (servers, filters, etc; not console)
-        "TFTextMedium"                                              "255 255 255 255"	// "Team Fortress 2" text in Game dropdown (??)
-        "TFTextDull"                                                "255 255 255 255"	// Quick Refresh + Game arrow color (in server browser)
+        "TFTextBright"                                              "255 255 255 255"	// Main text color (servers, filters, etc; not console)
+        "TFTextMedium"                                              "240 134 049 255"	// Highlighted text color (checkboxes)
+        "TFTextDull"                                                "125 125 125 255"	// Inactive text color (buttons, checkboxes)
         // Background colors
         "ControlBG"                                                 "050 050 050 255"	// background color of controls
         "ControlDarkBG"                                             "050 050 050 255"	// darker background color; used for background of scrollbars
@@ -76,16 +76,31 @@
 
     "BaseSettings"
     {
+        "FrameTitleBar.DisabledTextColor"                           "TFTanBright"
+        "ListPanel.SelectedTextColor"                               "bh_black"	// selected server font color
+        "ListPanel.SelectedBgColor"                                 "bh_gray"	// selected server highlight bg color
+        "ListPanel.SelectedOutOfFocusBgColor"                       "bh_gray"	// selected server highlight bg color (browser not selected)
+        "Menu.ArmedTextColor"                                       "bh_white"
+        "Border.Bright"                                             "bh_white_t"
+        "Border.Dark"                                               "bh_white_t"
+        "Button.TextColor"                                          "bh_white"
+        "Button.BgColor"                                            "bh_Theme_BG40"
+        "Button.ArmedTextColor"                                     "bh_Theme_TextAccent"
+        "Button.ArmedBgColor"                                       "bh_Theme_BG60"
+        "Button.DepressedTextColor"                                 "bh_white_t"
+        "Button.DepressedBgColor"                                   "bh_Theme_BG30"
         "Console.TextColor"                                         "bh_yellow"	// Color of entered console commands
         "Console.DevTextColor"                                      "bh_IsError"	// Unknown
         // Game join loading bar
         "Frame.BgColor"                                             "bh_Theme_BG30"
-        "Frame.OutOfFocusBGColor"                                   "bh_Theme_BG30"
+        "Frame.OutOfFocusBGColor"                                   "bh_Theme_BG20"
+        "PropertySheet.TextColor"                                   "bh_white_t"
+        "PropertySheet.SelectedTextColor"                           "bh_white"
         // All boxes you can type into
         "TextEntry.TextColor"                                       "bh_white"
         "TextEntry.BgColor"                                         "bh_Theme_BG20"
         "TextEntry.CursorColor"                                     "bh_white"
-        "TextEntry.DisabledTextColor"                               "bh_white"
+        "TextEntry.DisabledTextColor"                               "TFTextDull"
         "TextEntry.DisabledBgColor"                                 "bh_Theme_BG20"
         "TextEntry.SelectedTextColor"                               "bh_black"
         "TextEntry.SelectedBgColor"                                 "bh_Theme_TextAccent"
@@ -142,6 +157,221 @@
                         "color"                                     "bh_blue"
                         "offset"                                    "0 1"
                     }
+                }
+            }
+        }
+
+        "FrameBorder"   // server browser border
+        {
+            "backgroundtype"                                        "0"
+            "proportional_scalar"                                   "0.75"
+
+            "Left"
+            {
+                "1"
+                {
+                    "color"                                         "bh_BGStandard"
+                    "offset"                                        "0 1"
+                }
+            }
+
+            "Right"
+            {
+                "1"
+                {
+                    "color"                                         "bh_BGStandard"
+                    "offset"                                        "1 0"
+                }
+            }
+
+            "Top"
+            {
+                "1"
+                {
+                    "color"                                         "bh_BGStandard"
+                    "offset"                                        "1 0"
+                }
+            }
+
+            "Bottom"
+            {
+                "1"
+                {
+                    "color"                                         "bh_BGStandard"
+                    "offset"                                        "0 1"
+                }
+            }
+        }
+
+        "RaisedBorder" // server browser buttons & headers, console suggestion border
+        {
+            "proportional_scalar"                                   "0.75"
+
+            "Left"
+            {
+                "1"
+                {
+                    "offset"                                        "0 1"
+                }
+            }
+
+            "Right"
+            {
+                "1"
+                {
+                    "offset"                                        "1 0"
+                }
+            }
+
+            "Top"
+            {
+                "1"
+                {
+                    "offset"                                        "1 0"
+                }
+            }
+
+            "Bottom"
+            {
+                "1"
+                {
+                    "offset"                                        "0 1"
+                }
+            }
+        }
+
+        "ButtonKeyFocusBorder" // demoui buttons, server browser connect button
+        {
+            "proportional_scalar"                                   "0.75"
+
+            "Left"
+            {
+                "1"
+                {
+                    "color"                                         "Border.Bright"
+                    "offset"                                        "0 1"
+                }
+
+                "2"
+                {
+                    "color"                                         "bh_blank"
+                }
+            }
+
+            "Right"
+            {
+                "1"
+                {
+                    "color"                                         "Border.Dark"
+                    "offset"                                        "1 0"
+                }
+
+                "2"
+                {
+                    "color"                                         "bh_blank"
+                }
+            }
+
+            "Top"
+            {
+                "1"
+                {
+                    "color"                                         "Border.Bright"
+                    "offset"                                        "1 0"
+                }
+
+                "2"
+                {
+                    "color"                                         "bh_blank"
+                }
+            }
+
+            "Bottom"
+            {
+                "1"
+                {
+                    "color"                                         "Border.Dark"
+                    "offset"                                        "0 1"
+                }
+
+                "2"
+                {
+                    "color"                                         "bh_blank"
+                }
+            }
+        }
+
+        "ButtonDepressedBorder" // server browser server list border, map, max player count
+        {
+            "proportional_scalar"                                   "0.75"
+
+            "Left"
+            {
+                "1"
+                {
+                    "offset"                                        "0 1"
+                }
+            }
+
+            "Right"
+            {
+                "1"
+                {
+                    "offset"                                        "1 0"
+                }
+            }
+
+            "Top"
+            {
+                "1"
+                {
+                    "offset"                                        "1 0"
+                }
+            }
+
+            "Bottom"
+            {
+                "1"
+                {
+                    "offset"                                        "0 1"
+                }
+            }
+        }
+
+        "TabActiveBorder" // server browser selected tab
+        {
+            "proportional_scalar"                                   "0.75"
+
+            "Left"
+            {
+                "1"
+                {
+                    "offset"                                        "0 1"
+                }
+            }
+
+            "Right"
+            {
+                "1"
+                {
+                    "offset"                                        "1 0"
+                }
+            }
+
+            "Top"
+            {
+                "1"
+                {
+                    "offset"                                        "1 0"
+                }
+            }
+
+            "Bottom"
+            {
+                "1"
+                {
+                    "color"                                         "Border.Dark"
+                    "offset"                                        "0 1"
                 }
             }
         }
