@@ -51,15 +51,17 @@
         "ypos"                                                      "7"
         "wide"                                                      "f0"
         "tall"                                                      "f0"
+        "zpos"                                                      "9999"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Flag pickup notifs
+    // Note this vanishes when CSecondaryTargetID is active, so putting it in the same spot is viable
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     "NotificationPanel"
     {
-        "ypos"                                                      "r-6969"
+        "ypos"                                                      "310"
         "visible"                                                   "0"
     }
 

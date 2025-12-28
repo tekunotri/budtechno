@@ -1711,132 +1711,87 @@
 				{
 					"0"
 					{
-						"item"		"Summer 2025 Cosmetic Key" 
+						"item"		"Winter 2025 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Summer 2025 Cosmetic Case"
+						"item"		"Winter 2025 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Taunt: The Final Score"
+						"item"		"Taunt: Dead Mann's Drink"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Taunt: Bear Hug"
+						"item"		"Taunt: The Critical Fail"
 						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Taunt: Texan Trickshot"
+						"item"		"Taunt: Chairholder"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: Flying Colors"
+						"item"		"Map Token Nutcracker"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Map Token Citadel"
+						"item"		"Map Token Gavle"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Map Token Aquarius"
+						"item"		"Map Token Sidewinder"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Map Token Fulgur"
+						"item"		"Map Token Abbey"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Map Token Cargo"
+						"item"		"Map Token Winter Ridge"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Map Token Conifer"
+						"item"		"Map Token Matterhorn"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Map Token Boardwalk"
+						"item"		"Strange Filter: Nutcracker (Community)"
 						"show_market"	"0"
 					}
 					"12"
 					{
-						"item"		"Map Token Blowout"
+						"item"		"Strange Filter: Gavle (Community)"
 						"show_market"	"0"
 					}
 					"13"
 					{
-						"item"		"Map Token Mannhole"
+						"item"		"Strange Filter: Sidewinder (Community)"
 						"show_market"	"0"
 					}
 					"14"
 					{
-						"item"		"Map Token Demolition"	
+						"item"		"Strange Filter: Abbey (Community)"
 						"show_market"	"0"
 					}
 					"15"
 					{
-						"item"		"Map Token Pressure"
+						"item"		"Strange Filter: Winter Ridge (Community)"
 						"show_market"	"0"
 					}
 					"16"
 					{
-						"item"		"Strange Filter: Citadel (Community)"
-						"show_market"	"0"
-					}
-					"17"
-					{
-						"item"		"Strange Filter: Aquarius (Community)"
-						"show_market"	"0"
-					}
-					"18"
-					{
-						"item"		"Strange Filter: Fulgur (Community)"
-						"show_market"	"0"
-					}
-					"19"
-					{
-						"item"		"Strange Filter: Cargo (Community)"
-						"show_market"	"0"
-					}
-					"20"
-					{
-						"item"		"Strange Filter: Conifer (Community)"
-						"show_market"	"0"
-					}
-					"21"
-					{
-						"item"		"Strange Filter: Boardwalk (Community)"
-						"show_market"	"0"
-					}
-					"22"
-					{
-						"item"		"Strange Filter: Blowout (Community)"
-						"show_market"	"0"
-					}
-					"23"
-					{
-						"item"		"Strange Filter: Mannhole (Community)"
-						"show_market"	"0"
-					}
-					"24"
-					{
-						"item"		"Strange Filter: Demolition (Community)"
-						"show_market"	"0"
-					}
-					"25"
-					{
-						"item"		"Strange Filter: Pressure (Community)"
+						"item"		"Strange Filter: Matterhorn (Community)"
 						"show_market"	"0"
 					}
 				}

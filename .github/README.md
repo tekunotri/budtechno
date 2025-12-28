@@ -1,12 +1,23 @@
-<p align="center">
-    <img width="782" height="200" src="https://user-images.githubusercontent.com/509599/195221902-72549ed7-bee4-4d86-bcb5-694d23d72568.gif">
-</p>
+<div align="center">
 
-<h3 align="center"><a href="https://discord.gg/PTWkt3h">Discord</a> | <a href="http://imgur.com/a/aJ1K5">Screenshots</a> | <a href="https://comfig.app/huds/page/budhud/">Comfig Huds</a> | <a href="https://tf2huds.dev/hud/budhud">tf2huds.dev</a> | <a href="http://steamcommunity.com/groups/budhud">Steam Group</a></p>
+<img src="https://user-images.githubusercontent.com/509599/195221902-72549ed7-bee4-4d86-bcb5-694d23d72568.gif" alt="budhud banner">
+
+[![Screenshots](https://img.shields.io/badge/-Screenshots-green)](http://imgur.com/a/aJ1K5)
+[![Wiki](https://img.shields.io/badge/-Wiki-blue?logo=github&logoColor=white)](https://github.com/rbjaxter/budhud/wiki)
+[![Discord](https://img.shields.io/badge/-Discord-5865F2?logo=discord&logoColor=white)](https://discord.gg/PTWkt3h)
+[![Comfig Huds](https://img.shields.io/badge/-Comfig%20Huds-00C7B7)](https://comfig.app/huds/page/budhud/)
+[![tf2huds.dev](https://img.shields.io/badge/-tf2huds.dev-orange)](https://tf2huds.dev/hud/budhud)
+[![Steam Group](https://img.shields.io/badge/-Steam-1B2838?logo=steam&logoColor=white)](http://steamcommunity.com/groups/budhud)
+
+[![Latest Release](https://img.shields.io/github/v/release/rbjaxter/budhud)](https://github.com/rbjaxter/budhud/releases/latest)
+[![Downloads - Latest](https://img.shields.io/github/downloads/rbjaxter/budhud/latest/total)](https://github.com/rbjaxter/budhud/releases/latest)
+[![Total Downloads](https://img.shields.io/github/downloads/rbjaxter/budhud/total)](https://github.com/rbjaxter/budhud/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/rbjaxter/budhud)](https://github.com/rbjaxter/budhud/commits/master)
+[![License](https://img.shields.io/github/license/rbjaxter/budhud)](https://github.com/rbjaxter/budhud/blob/master/LICENSE)
 
 <i>A Team Fortress 2 HUD built from the ground up using #base.</i>
 
-<br>
+</div>
 
 ## Installation and Customization
 A full installation guide & video can be found [here](https://github.com/rbjaxter/budhud/wiki/Installation).
@@ -15,7 +26,7 @@ The [HUD wiki](https://github.com/rbjaxter/budhud/wiki) contains a wealth of inf
 
 ### Installation (TL;DR)
 1. Find your TF2 install location
-    * The fastest way is to open Steam -> go to your game library -> right click Team Fortress 2 -> Properties -> Under "Installed Files", click "Browse..."
+    * The fastest way is to open Steam -> Select `Games` -> `View Games Library` -> right click `Team Fortress 2` -> `Properties...` -> Under `Installed Files`, click `Browse...`
 2. Navigate to `../tf/custom`
     * If you don't have a `custom` folder, create it
 3. Download the latest release
@@ -24,7 +35,7 @@ The [HUD wiki](https://github.com/rbjaxter/budhud/wiki) contains a wealth of inf
     * You can use Windows' built in extraction (right click > `Extract All...`) or a program like 7-Zip
     * Ensure you don't have two folders within each other (see below)
 
-> To see if you placed it in the correct place, we'll use the `info.vdf` file as an example.
+> To see if your folder is placed correctly, we'll use the `info.vdf` file as an example.
 >
 > The path to the `info.vdf` file should be:
 >
@@ -32,16 +43,12 @@ The [HUD wiki](https://github.com/rbjaxter/budhud/wiki) contains a wealth of inf
 >
 > NOT
 >
-> `../tf/custom/budhud/budhud/info.vdf`
+> `../tf/custom/budhud/budhud (or ANY other folder)/info.vdf`
 >
 > **This is the most common mistake people make when installing a hud.**
 
 ## budhud Updater Script
-budhud includes a shell script (`budhud Updater.ps1`) in the base directory that will allow you to do a few different things, such as verify you installed the HUD correctly or update the default game files after a TF2 update.
-
-To open this file, you need to Right click the file and select `Run with PowerShell`.
-
-Check out the [wiki](https://github.com/rbjaxter/budhud/wiki#budhud-updater-script) for more information.
+budhud includes a shell script (`budhud Updater.ps1`, **Windows users only**) in the base directory that will allow you to do a few different things. Check out the [wiki](https://github.com/rbjaxter/budhud/wiki#budhud-updater-script) for more information.
 
 ## HUD Installer / Customizer
 If you would like to install and customize budhud (as well as other huds) quickly and easily, check out the  [TF2HUD Editor](https://github.com/CriticalFlaw/TF2HUD.Editor) created by [CriticalFlaw](https://github.com/CriticalFlaw/) and [Revan](https://github.com/cooolbros). You can read more about it [here](https://criticalflaw.ca/TF2HUD.Editor/).
@@ -57,7 +64,7 @@ If you would like to install and customize budhud (as well as other huds) quickl
 Thanks to everyone who has helped translate budhud! To see more information on budhud translations (or translate a language), see [here](https://github.com/rbjaxter/budhud/wiki/Translations).
 
 - Brazilian (Brazilian Portuguese) - _Translated by powah_
-- English
+- English - _Transletated by mee :)_
 - Finnish - _Translated by [Eerorri](https://github.com/Eerorri)_
 - French - _Translated by ly_dee_
 - German - _Translated by donuttt_
