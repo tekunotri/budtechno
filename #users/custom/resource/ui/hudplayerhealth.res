@@ -6,6 +6,9 @@
         "wide"                                                      "0"
         "tall"                                                      "0"
         "visible"                                                      "0"
-
+    }
+    "HudPlayerHealth"
+    {
+        "xpos"  "c-244"
     }
 }
