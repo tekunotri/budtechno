@@ -7,7 +7,7 @@
     }
     "AmmoInReserve"
     {
-        "xpos"  "66" //og 135
+        "xpos"  "70" //og 135
         "ypos"  "8"
     }
     "AmmoNoClip"
