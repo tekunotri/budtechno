@@ -9,6 +9,8 @@
 
     "BaseSettings"
     {
+        "TFColors.ChatTextBlue"                                     "153 204 255 255"	// Team-colored name in chat
+        "TFColors.ChatTextRed"                                      "255 63 53 255"	// Team-colored name in chat
         "TFColors.ChatTextYellow"                                   "255 255 255 255"	// Text color
         "RichText.SelectedTextColor"                                "255 255 255 255"
         "RichText.SelectedBgColor"                                  "150 150 150 255"
@@ -73,7 +75,7 @@
             }
         }
 
-        "DefaultVerySmall" // Courtesy of qkeitoe (GH issue #557). Missing in default file, causes language indicator to not appear if missing
+        "DefaultVerySmall"	// Courtesy of qkeitoe (GH issue #557). Missing in default file, causes language indicator to not appear if missing
         {
             "1"
             {

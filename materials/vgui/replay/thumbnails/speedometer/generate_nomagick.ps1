@@ -1,4 +1,4 @@
-# shell script by Whisker to do what generate.ps1 did but without imagemagick
+# shell script by Whisker to generate images without ImageMagick
 
 Add-Type -AssemblyName System.Drawing
 
@@ -9,9 +9,9 @@ $maxNumber = 3500
 $imagesFolder = Join-Path $PSScriptRoot "numbers"
 $canvasWidth = 128
 $canvasHeight = 32
-$scaleFactor = 4    # high-res multiplier (generates images at this scale factor and then scales them down for quaaallity)
-$manualScale = 1.7  # manually change size of text within width/height because i'm too much of a dumbass to automate it
-$fontPath = Join-Path $PSScriptRoot "LatoSemibold.ttf"  # set your font here. it falls back to Segoue UI Semibold if it cant find it
+$scaleFactor = 4
+$manualScale = 1.4
+$fontPath = Join-Path $PSScriptRoot "font-latosemibold-original.ttf"
 
 # Ensure numeric types
 $canvasWidth = [int]$canvasWidth
@@ -19,7 +19,7 @@ $canvasHeight = [int]$canvasHeight
 $scaleFactor = [int]$scaleFactor
 $manualScale = [double]$manualScale
 
-# High-res canvas dimensions
+# High-res canvas
 $hiResWidth  = $canvasWidth * $scaleFactor
 $hiResHeight = $canvasHeight * $scaleFactor
 
@@ -35,7 +35,7 @@ if (Test-Path $fontPath) {
     $fontCollection = New-Object System.Drawing.Text.PrivateFontCollection
     $fontCollection.AddFontFile($fontPath)
     $fontName = $fontCollection.Families[0].Name
-    Write-Host "Using custom font: LatoSemibold.ttf"
+    Write-Host "Using custom font: $fontName"
 } else {
     $fontName = "Segoe UI Semibold"
     Write-Host "Custom font not found. Using system font: $fontName"
@@ -90,7 +90,33 @@ function Get-TextColor {
 }
 
 # -----------------------------
-# FUNCTION TO CREATE IMAGE
+# CALCULATE FIXED FONT SIZE
+# -----------------------------
+Write-Host "Calculating stable font size..."
+$testBmp = New-Object System.Drawing.Bitmap($hiResWidth, $hiResHeight)
+$testG = [System.Drawing.Graphics]::FromImage($testBmp)
+$testG.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
+$testG.TextRenderingHint = [System.Drawing.Text.TextRenderingHint]::AntiAliasGridFit
+
+$initialFontSize = $hiResHeight * 2
+$testFont = New-Object System.Drawing.Font($fontName, [float]$initialFontSize)
+
+# Measure largest-width string
+$size = $testG.MeasureString("3500", $testFont)
+
+# Compute scale for largest number
+$scale = [Math]::Min($hiResWidth / $size.Width, $hiResHeight / $size.Height)
+$globalFontSize = $initialFontSize * $scale * $manualScale
+Write-Host "Using fixed font size: $globalFontSize"
+
+# Reusable final font
+$GLOBAL_FINAL_FONT = New-Object System.Drawing.Font($fontName, [float]$globalFontSize)
+
+$testG.Dispose()
+$testBmp.Dispose()
+
+# -----------------------------
+# FUNCTION TO CREATE IMAGE (visually centered)
 # -----------------------------
 function GenerateNumberImage {
     param([int]$num, [System.Drawing.Color]$color)
@@ -102,29 +128,18 @@ function GenerateNumberImage {
     $g.TextRenderingHint = [System.Drawing.Text.TextRenderingHint]::AntiAliasGridFit
     $g.Clear($background)
 
-    # Rectangle for drawing
-    $rect = New-Object System.Drawing.RectangleF(0,0,$hiResWidth,$hiResHeight)
-    $format = New-Object System.Drawing.StringFormat
-    $format.Alignment = "Center"
-    $format.LineAlignment = "Center"
-
-    # Start with large font for measurement
-    $initialFontSize = $hiResHeight * 2
-    $testFont = New-Object System.Drawing.Font($fontName, [float]$initialFontSize)
-
-    # Measure string and calculate auto scale
-    $size = $g.MeasureString($num.ToString(), $testFont)
-    $scale = [Math]::Min($hiResWidth/$size.Width, $hiResHeight/$size.Height)
-
-    # Apply manual scale modifier
-    $finalFontSize = $initialFontSize * $scale * $manualScale
-    $finalFont = New-Object System.Drawing.Font($fontName, [float]$finalFontSize)
-
-    # Draw number
+    # Measure text size
     $brush = New-Object System.Drawing.SolidBrush($color)
-    $g.DrawString($num.ToString(), $finalFont, $brush, $rect, $format)
+    $size = $g.MeasureString($num.ToString(), $GLOBAL_FINAL_FONT)
 
-    # Downscale
+    # Compute offsets to center visually
+    $x = ($hiResWidth - $size.Width) / 2
+    $y = ($hiResHeight - $size.Height) / 2
+
+    # Draw string at offset
+    $g.DrawString($num.ToString(), $GLOBAL_FINAL_FONT, $brush, $x, $y)
+
+    # Downscale to final canvas
     $finalBmp = New-Object System.Drawing.Bitmap($canvasWidth, $canvasHeight)
     $gFinal = [System.Drawing.Graphics]::FromImage($finalBmp)
     $gFinal.InterpolationMode = [System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic
@@ -154,7 +169,7 @@ for ($num = 0; $num -le $maxNumber; $num++) {
 }
 
 # -----------------------------
-# YELLOW RANGE (FOR SOLLY JUMP SLIDE SYNCS)
+# YELLOW RANGE (1105–1115)
 # -----------------------------
 Write-Host "Regenerating 1105-1115 with special yellow..."
 $yellow = [System.Drawing.Color]::FromArgb(255,215,0)
@@ -163,7 +178,7 @@ for ($num = 1105; $num -le 1115; $num++) {
 }
 
 # -----------------------------
-# COPY SPECIFIC OVERRIDES (VARIOUS MAXSPEEDS SO THINGS BOUNCE BETWEEN SPEEDS LESS)
+# COPY SPECIFIC OVERRIDES
 # -----------------------------
 Write-Host "Copying specific overrides..."
 $numbersToCopy = @(750,425,400,382,360,347,345,325,320,308,288,300,270,280,252,240,216,230,207,160,110,80,44)

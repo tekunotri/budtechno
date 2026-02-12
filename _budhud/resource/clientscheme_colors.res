@@ -323,7 +323,7 @@ Scheme
         "LightRed"                                                  "254 002 209 255"       // Bright pink to locate
         "LighterRed"                                                "254 002 209 255"       // Bright pink to locate
         "TanLight"                                                  "255 255 255 255"       // Used in far too many places to want to do anything but change it here
-        "TanDark"                                                   "255 255 255 255"       // Used in advanced options
+        "TanDark"                                                   "255 255 255 255"       // Used in advanced options & mvmvictorymannupentry.res (though not hardcoded)
         "HudOffWhite"                                               "255 255 255 255"
 
         // Engineer HUD Specific
