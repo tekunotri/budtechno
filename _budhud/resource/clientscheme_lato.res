@@ -295,7 +295,7 @@
         // Font used for closed captions
         ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        "CloseCaption_Normal"
+        "CloseCaption"
         {
             "1"
             {
@@ -313,6 +313,7 @@
                 "name"                                              "Lato Semibold"
                 "tall"                                              "12"
                 "weight"                                            "500"
+                "italic"                                            "1"
                 "range"                                             "0x0000 0x017F"
             }
         }
@@ -335,6 +336,7 @@
                 "name"                                              "Lato Semibold"
                 "tall"                                              "12"
                 "weight"                                            "500"
+                "italic"                                            "1"
                 "range"                                             "0x0000 0x017F"
             }
         }
@@ -2181,7 +2183,7 @@
             }
         }
 
-        "CloseCaption_Normal"
+        "CloseCaption"
         {
             "1"
             {
