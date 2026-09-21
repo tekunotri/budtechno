@@ -58,10 +58,10 @@
 
         "DescLine1"
         {
-            "xpos"                                                  "c-250"
+            "xpos"                                                  "cs-0.5"
             "ypos"                                                  "129"
             "zpos"                                                  "1"
-            "wide"                                                  "500"
+            "wide"                                                  "6969"
             "tall"                                                  "20"
             "textalignment"                                         "center"
 
@@ -80,7 +80,7 @@
             "xpos"                                                  "-1"
             "ypos"                                                  "-1"
             "zpos"                                                  "0"
-            "wide"                                                  "500"
+            "wide"                                                  "6969"
             "tall"                                                  "20"
             "textalignment"                                         "center"
             "visible"                                               "1"
@@ -105,10 +105,10 @@
 
         "DescLine2"
         {
-            "xpos"                                                  "c-250"
+            "xpos"                                                  "cs-0.5"
             "ypos"                                                  "139"
             "zpos"                                                  "1"
-            "wide"                                                  "500"
+            "wide"                                                  "6969"
             "tall"                                                  "20"
             "textalignment"                                         "center"
 
@@ -127,7 +127,7 @@
             "xpos"                                                  "-1"
             "ypos"                                                  "-1"
             "zpos"                                                  "0"
-            "wide"                                                  "500"
+            "wide"                                                  "6969"
             "tall"                                                  "20"
             "textalignment"                                         "center"
             "visible"                                               "1"
