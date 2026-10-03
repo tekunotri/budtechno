@@ -12,7 +12,8 @@
     }
     "AmmoNoClip"
     {
-        "xpos"  "-79" //og -23
+        "xpos"  "-59" //og -23
+        "textAlignment" "center"
     }
     "AmmoInReserveShadow"
     {
